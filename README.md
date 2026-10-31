@@ -40,3 +40,4 @@ GitHub Actions（`.github/workflows/build.yml`）が、sherpa-onnx のネイテ�
 - このアプリのコード: Apache License 2.0（[LICENSE](LICENSE)）
 - Haas-ja-v1.0: Apache License 2.0
 - sherpa-onnx: Apache License 2.0
+- ONNX Runtime（sherpa-onnx のネイティブライブラリに同梱）: MIT License
