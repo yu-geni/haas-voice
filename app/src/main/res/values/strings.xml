@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Haas音声入力</string>
+    <string name="service_label">Haas音声入力（音量キー）</string>
+    <string name="service_description">音量下キーを長押ししている間だけ音声を受け付け、離すと端末内の音声認識モデル Haas-ja-v1.0 で文字起こしして、カーソル位置に入力します。Haas-jaを選んだ場合、音声や文字は外部に送信しません。標準を選んだ場合は、端末の音声認識サービスの設定に従います。</string>
+</resources>
