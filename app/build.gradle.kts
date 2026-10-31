@@ -11,8 +11,10 @@ android {
         applicationId = "io.github.haasvoice"
         minSdk = 29
         targetSdk = 35
-        versionCode = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInt()
-        versionName = "0.1." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
+        // 旧リポジトリのビルド（#1〜#20 程度）より新しい番号にして、上書き更新できるようにする
+        val build = (System.getenv("GITHUB_RUN_NUMBER") ?: "0").toInt() + 100
+        versionCode = build
+        versionName = "0.1.$build"
         ndk { abiFilters += "arm64-v8a" }
     }
 
